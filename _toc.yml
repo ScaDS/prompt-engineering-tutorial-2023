@@ -1,0 +1,25 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+parts:
+  - caption: Tutorial
+    chapters:
+    - file: 00_preparation/readme
+    - file: 01_prompts/01_prompting
+    - file: 01_prompts/02_generating_images
+
+  - caption: Optional exercises
+    chapters:
+    - file: 01_prompts/videogame_sales
+    - file: 01_prompts/gui_plots
+
+  - caption: Links
+    chapters:
+    #- url: https://doi.org/10.5281/zenodo.10207321
+    #  title: Download Slides
+    - url: https://creativecommons.org/licenses/by/4.0/
+      title: License CC-BY 4.0
+    - file: imprint
