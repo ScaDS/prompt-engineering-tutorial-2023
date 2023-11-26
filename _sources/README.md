@@ -13,8 +13,8 @@ pip install jupyterlab
 pip install jupyter-book
 pip install jupyterlab-spellchecker
 
-git clone https://github.com/scads/napari-tutorial-2023
-cd napari-tutorial-2023
+git clone https://github.com/scads/prompt-engineering-tutorial-2023
+cd prompt-engineering-tutorial-2023
 jupyter lab
 ```
 
