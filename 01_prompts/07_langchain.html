@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Generating images using DALL-E &#8212; Napari Tutorial 2023</title>
+    <title>Prompting tasks using LangChain &#8212; Napari Tutorial 2023</title>
   
   
   
@@ -58,11 +58,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '01_prompts/02_generating_images';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '01_prompts/07_langchain';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Imprint" href="../imprint.html" />
-    <link rel="prev" title="Prompting chatGPT" href="01_prompting.html" />
+    <link rel="prev" title="Graphical user interfaces" href="06_gui_plots.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="en">
   </head>
@@ -150,9 +150,42 @@ const thebe_selector_output = ".output, .cell_output"
                     </li>
                 
 
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="03_prompt_engineering.html">
+                        <no title>
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="04_generating_images.html">
+                        Generating images using DALL-E
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="05_videogame_sales.html">
+                        Exploring csv files
+                      </a>
+                    </li>
+                
+            <div class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </button>
+                <div class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="06_gui_plots.html">
+                        Graphical user interfaces
+                      </a>
+                    </li>
+                
+
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
-                        Generating images using DALL-E
+                        Prompting tasks using LangChain
                       </a>
                     </li>
                 
@@ -170,6 +203,9 @@ const thebe_selector_output = ".output, .cell_output"
                       </a>
                     </li>
                 
+                </div>
+            </div>
+            
     </ul>
 </nav>
       </div>
@@ -254,9 +290,42 @@ const thebe_selector_output = ".output, .cell_output"
                     </li>
                 
 
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="03_prompt_engineering.html">
+                        <no title>
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="04_generating_images.html">
+                        Generating images using DALL-E
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="05_videogame_sales.html">
+                        Exploring csv files
+                      </a>
+                    </li>
+                
+            <div class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </button>
+                <div class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="06_gui_plots.html">
+                        Graphical user interfaces
+                      </a>
+                    </li>
+                
+
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
-                        Generating images using DALL-E
+                        Prompting tasks using LangChain
                       </a>
                     </li>
                 
@@ -274,6 +343,9 @@ const thebe_selector_output = ".output, .cell_output"
                       </a>
                     </li>
                 
+                </div>
+            </div>
+            
     </ul>
 </nav>
       </div>
@@ -347,7 +419,11 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../00_preparation/readme.html">Setting up your computer</a></li>
 
 <li class="toctree-l1"><a class="reference internal" href="01_prompting.html">Prompting chatGPT</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Generating images using DALL-E</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04_generating_images.html">Generating images using DALL-E</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05_videogame_sales.html">Exploring csv files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06_gui_plots.html">Graphical user interfaces</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Prompting tasks using LangChain</a></li>
+
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Links</span></p>
 <ul class="nav bd-sidenav">
@@ -439,7 +515,7 @@ title="Source repository"
 </a>
 </a>
       
-      <li><a href="https://github.com/ScaDS/napari-tutorial-2023/issues/new?title=Issue%20on%20page%20%2F01_prompts/02_generating_images.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/ScaDS/napari-tutorial-2023/issues/new?title=Issue%20on%20page%20%2F01_prompts/07_langchain.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm dropdown-item"
    data-toggle="tooltip"
 data-placement="left"
@@ -464,7 +540,7 @@ title="Open an issue"
     <i class="fas fa-download"></i>
   </button>
   <ul class="dropdown-menu">
-      <li><a href="../_sources/01_prompts/02_generating_images.ipynb" target="_blank"
+      <li><a href="../_sources/01_prompts/07_langchain.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    data-toggle="tooltip"
 data-placement="left"
@@ -507,7 +583,7 @@ title="Print to PDF"
             
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Generating images using DALL-E</h1>
+    <h1>Prompting tasks using LangChain</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -517,11 +593,12 @@ title="Print to PDF"
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id1">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Prompting tasks using LangChain
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#exercise">
    Exercise
   </a>
@@ -535,109 +612,132 @@ title="Print to PDF"
 
             <article class="bd-article" role="main">
               
-  <section class="tex2jax_ignore mathjax_ignore" id="generating-images-using-dall-e">
-<h1>Generating images using DALL-E<a class="headerlink" href="#generating-images-using-dall-e" title="Permalink to this heading">#</a></h1>
-<p>In this notebook we will demonstrate how to ask openAI’s DALL-E model to generate some images. Depending on what we request and how the model was trained, the results may be more or less appropriate. We will again use a small helper function to return the image directly.</p>
-<p>Read more:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://platform.openai.com/docs/guides/images/usage">openAI image generation documentation</a></p></li>
-</ul>
+  <section id="prompting-tasks-using-langchain">
+<h1>Prompting tasks using LangChain<a class="headerlink" href="#prompting-tasks-using-langchain" title="Permalink to this heading">#</a></h1>
+<p>In this notebook we demonstrate how to prompt for executing tasks using chatGPT and <a class="reference external" href="https://github.com/hwchase17/langchain">LangChain</a>. Using English language, we ask for doing something with data, and LangChain will execute the task.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
-<span class="kn">from</span> <span class="nn">skimage.io</span> <span class="kn">import</span> <span class="n">imread</span><span class="p">,</span> <span class="n">imshow</span>
-<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">from</span> <span class="nn">IPython.core.magic</span> <span class="kn">import</span> <span class="n">register_line_cell_magic</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">langchain.tools</span> <span class="kn">import</span> <span class="n">tool</span>
+<span class="kn">from</span> <span class="nn">langchain.memory</span> <span class="kn">import</span> <span class="n">ConversationBufferMemory</span>
+<span class="kn">from</span> <span class="nn">langchain.chat_models</span> <span class="kn">import</span> <span class="n">ChatOpenAI</span>
+<span class="kn">from</span> <span class="nn">langchain.utilities</span> <span class="kn">import</span> <span class="n">SerpAPIWrapper</span>
+<span class="kn">from</span> <span class="nn">langchain.agents</span> <span class="kn">import</span> <span class="n">initialize_agent</span>
+<span class="kn">from</span> <span class="nn">langchain.agents</span> <span class="kn">import</span> <span class="n">AgentType</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>To demonstrate how this works, we define three functions that modify a string and collect them in a list called <code class="docutils literal notranslate"><span class="pre">tools</span></code>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">tools</span> <span class="o">=</span> <span class="p">[]</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nd">@register_line_cell_magic</span>
-<span class="k">def</span> <span class="nf">image</span><span class="p">(</span><span class="n">line</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> <span class="n">cell</span><span class="p">:</span><span class="nb">str</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">width</span><span class="p">:</span><span class="nb">int</span><span class="o">=</span><span class="mi">256</span><span class="p">,</span> <span class="n">height</span><span class="p">:</span><span class="nb">int</span><span class="o">=</span><span class="mi">256</span><span class="p">,</span> <span class="n">model</span><span class="o">=</span><span class="s1">&#39;dall-e-2&#39;</span><span class="p">,</span> <span class="n">show_result</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;A helper function for generating images using OpenAI&#39;s dall-e model&quot;&quot;&quot;</span>
-    <span class="n">message</span> <span class="o">=</span> <span class="n">line</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="n">cell</span>
-    <span class="n">client</span> <span class="o">=</span> <span class="n">OpenAI</span><span class="p">()</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">images</span><span class="o">.</span><span class="n">generate</span><span class="p">(</span>
-      <span class="n">model</span><span class="o">=</span><span class="n">model</span><span class="p">,</span>
-      <span class="n">prompt</span><span class="o">=</span><span class="n">message</span><span class="p">,</span>
-      <span class="n">n</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
-      <span class="n">size</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">width</span><span class="si">}</span><span class="s2">x</span><span class="si">{</span><span class="n">height</span><span class="si">}</span><span class="s2">&quot;</span>
-    <span class="p">)</span>
-    <span class="n">image_url</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">url</span>
-    <span class="n">image</span> <span class="o">=</span> <span class="n">imread</span><span class="p">(</span><span class="n">image_url</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nd">@tools</span><span class="o">.</span><span class="n">append</span>
+<span class="nd">@tool</span>
+<span class="k">def</span> <span class="nf">upper_case</span><span class="p">(</span><span class="n">text</span><span class="p">:</span><span class="nb">str</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Useful for making a text uppercase or capital letters.&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
 
-    <span class="k">if</span> <span class="n">show_result</span><span class="p">:</span>
-        <span class="n">imshow</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">image</span>
+<span class="nd">@tools</span><span class="o">.</span><span class="n">append</span>
+<span class="nd">@tool</span>
+<span class="k">def</span> <span class="nf">lower_case</span><span class="p">(</span><span class="n">text</span><span class="p">:</span><span class="nb">str</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Useful for making a text lowercase or small letters.&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+
+<span class="nd">@tools</span><span class="o">.</span><span class="n">append</span>
+<span class="nd">@tool</span>
+<span class="k">def</span> <span class="nf">reverse</span><span class="p">(</span><span class="n">text</span><span class="p">:</span><span class="nb">str</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Useful for making reversing order of a text.&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">text</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
 </div>
-<p>When generating scientific images, they may, or may not be a proper representation. Presumably, DALL-E was trained on many natural images (showing cars, trees, houses, etc.) and not so many images of cells.</p>
+<p>We create some memory and a large language model based on OpenAI’s chatGPT.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%</span><span class="k">image</span> 
-an image of 100 people photographed from distance
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">memory</span> <span class="o">=</span> <span class="n">ConversationBufferMemory</span><span class="p">(</span><span class="n">memory_key</span><span class="o">=</span><span class="s2">&quot;chat_history&quot;</span><span class="p">,</span> <span class="n">return_messages</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">llm</span><span class="o">=</span><span class="n">ChatOpenAI</span><span class="p">(</span><span class="n">temperature</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Given the list of tools, the large language model and the memory, we can create an agent.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">agent</span> <span class="o">=</span> <span class="n">initialize_agent</span><span class="p">(</span>
+    <span class="n">tools</span><span class="p">,</span> 
+    <span class="n">llm</span><span class="p">,</span> 
+    <span class="n">agent</span><span class="o">=</span><span class="n">AgentType</span><span class="o">.</span><span class="n">CHAT_CONVERSATIONAL_REACT_DESCRIPTION</span><span class="p">,</span> 
+    <span class="n">memory</span><span class="o">=</span><span class="n">memory</span><span class="p">,</span>
+    <span class="n">handle_parsing_errors</span><span class="o">=</span><span class="kc">True</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>This agent can then respond to prompts.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">agent</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;Hi, I am Robert&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/650f8e10fe9346bc137cc61031c366b6810e15dc677302d15f6af79f96c34e49.png" src="../_images/650f8e10fe9346bc137cc61031c366b6810e15dc677302d15f6af79f96c34e49.png" />
-</div>
-</div>
-<section id="id1">
-<h2><a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h2>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nd">@register_line_cell_magic</span>
-<span class="k">def</span> <span class="nf">fake_cat_images</span><span class="p">(</span><span class="n">line</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> <span class="n">cell</span><span class="p">:</span><span class="nb">str</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">):</span>
-    <span class="n">prompt</span> <span class="o">=</span> <span class="n">line</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="n">cell</span>
-    <span class="n">images</span> <span class="o">=</span> <span class="p">[</span><span class="n">imread</span><span class="p">(</span><span class="s1">&#39;real_cat.png&#39;</span><span class="p">)]</span>
-    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
-        <span class="n">images</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">image</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">show_result</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
-    <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">images</span><span class="p">)</span>
-    <span class="n">fix</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">images</span><span class="p">),</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">15</span><span class="p">))</span>
-    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">img</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">images</span><span class="p">):</span>
-        <span class="n">ax</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Nice to meet you, Robert! How can I assist you today?&#39;
 </pre></div>
 </div>
 </div>
 </div>
+<p>As it has memory, it can remind information we gave it earlier.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%</span><span class="k">fake_cat_images</span>
-Image of a cat sitting behind a microscope.
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">agent</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;What&#39;s my name?&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/c01a5ff46954f0d6d91f7c366f4577c1142f2014cccfe5c2b0a6ed1d4fc9ae65.png" src="../_images/c01a5ff46954f0d6d91f7c366f4577c1142f2014cccfe5c2b0a6ed1d4fc9ae65.png" />
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Your name is Robert.&#39;
+</pre></div>
 </div>
 </div>
+</div>
+<p>And we can use English language to apply one of the functions above.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%</span><span class="k">fake_cat_images</span>
-Image of a cat sitting behind a microscope.
-Both are on a brown floor in front of a white wall.
-The cat is mostly white and has some black dots.
-The cat sits straight.
-The cat is a bit larger than the microsope.
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">agent</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;Can you reverse my name?&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/13f947fa680ef838b52fe546413babf6d321629d489b7899ca3bb1ce661d3745.png" src="../_images/13f947fa680ef838b52fe546413babf6d321629d489b7899ca3bb1ce661d3745.png" />
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;treboR&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<p>Multiple tasks can also be chained.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">agent</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;Do you know my name reversed and upper case?&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;TREBOR&#39;
+</pre></div>
+</div>
 </div>
 </div>
 </section>
 <section id="exercise">
-<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this heading">#</a></h2>
-<p>Generate a comic of 25 students sitting in a living lab.</p>
-</section>
+<h1>Exercise<a class="headerlink" href="#exercise" title="Permalink to this heading">#</a></h1>
+<p>Add a <code class="docutils literal notranslate"><span class="pre">print('Hello</span> <span class="pre">world')</span></code> to the function <code class="docutils literal notranslate"><span class="pre">reverse</span></code>, rerun the entire notebook and execue the last cell above multiple times. Is the <code class="docutils literal notranslate"><span class="pre">Hello</span> <span class="pre">world</span></code> printed every time? If not, why?</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -668,11 +768,11 @@ The cat is a bit larger than the microsope.
             <footer class="bd-footer-article">
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-  <a class='left-prev' id="prev-link" href="01_prompting.html" title="previous page">
+  <a class='left-prev' id="prev-link" href="06_gui_plots.html" title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
           <p class="prev-next-subtitle">previous</p>
-          <p class="prev-next-title">Prompting chatGPT</p>
+          <p class="prev-next-title">Graphical user interfaces</p>
       </div>
   </a>
   <a class='right-next' id="next-link" href="../imprint.html" title="next page">
@@ -698,11 +798,12 @@ The cat is a bit larger than the microsope.
 </div>
 <nav id="bd-toc-nav" class="page-toc">
     <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id1">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Prompting tasks using LangChain
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
+ <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#exercise">
    Exercise
   </a>
@@ -735,7 +836,7 @@ By Robert Haase
   
   <div class="footer-item">
     <p class="last-updated">
-Last updated on 2023-11-26.<br>
+Last updated on 2023-12-08.<br>
 </p>
   </div>
   
