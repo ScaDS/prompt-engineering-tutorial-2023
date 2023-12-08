@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>&lt;no title&gt; &#8212; Napari Tutorial 2023</title>
+    <title>Primpt Engineering &#8212; Napari Tutorial 2023</title>
   
   
   
@@ -62,7 +62,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Generating images using DALL-E" href="04_generating_images.html" />
-    <link rel="prev" title="Prompting chatGPT" href="01_prompting.html" />
+    <link rel="prev" title="Use cases" href="02_use_cases.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="en">
   </head>
@@ -150,9 +150,16 @@ const thebe_selector_output = ".output, .cell_output"
                     </li>
                 
 
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="02_use_cases.html">
+                        Use cases
+                      </a>
+                    </li>
+                
+
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
-                        <no title>
+                        Primpt Engineering
                       </a>
                     </li>
                 
@@ -163,19 +170,19 @@ const thebe_selector_output = ".output, .cell_output"
                       </a>
                     </li>
                 
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="05_videogame_sales.html">
-                        Exploring csv files
-                      </a>
-                    </li>
-                
             <div class="nav-item dropdown">
                 <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
                 </button>
                 <div class="dropdown-menu">
                     
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="05_videogame_sales.html">
+                        Exploring csv files
+                      </a>
+                    </li>
+                
+
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="06_gui_plots.html">
                         Graphical user interfaces
@@ -290,9 +297,16 @@ const thebe_selector_output = ".output, .cell_output"
                     </li>
                 
 
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="02_use_cases.html">
+                        Use cases
+                      </a>
+                    </li>
+                
+
                     <li class="nav-item current active">
                       <a class="nav-link nav-internal" href="#">
-                        <no title>
+                        Primpt Engineering
                       </a>
                     </li>
                 
@@ -303,19 +317,19 @@ const thebe_selector_output = ".output, .cell_output"
                       </a>
                     </li>
                 
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="05_videogame_sales.html">
-                        Exploring csv files
-                      </a>
-                    </li>
-                
             <div class="nav-item dropdown">
                 <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
                 </button>
                 <div class="dropdown-menu">
                     
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="05_videogame_sales.html">
+                        Exploring csv files
+                      </a>
+                    </li>
+                
+
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="06_gui_plots.html">
                         Graphical user interfaces
@@ -415,10 +429,12 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorial</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../00_preparation/readme.html">Setting up your computer</a></li>
 
 <li class="toctree-l1"><a class="reference internal" href="01_prompting.html">Prompting chatGPT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_use_cases.html">Use cases</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Primpt Engineering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="04_generating_images.html">Generating images using DALL-E</a></li>
 <li class="toctree-l1"><a class="reference internal" href="05_videogame_sales.html">Exploring csv files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="06_gui_plots.html">Graphical user interfaces</a></li>
@@ -583,7 +599,7 @@ title="Print to PDF"
             
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1><no title></h1>
+    <h1>Primpt Engineering</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -592,7 +608,12 @@ title="Print to PDF"
                 <h2> Contents </h2>
             </div>
             <nav aria-label="Page">
-                <ul class="simple visible nav section-nav flex-column">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercise">
+   Exercise
+  </a>
+ </li>
 </ul>
 
             </nav>
@@ -602,7 +623,12 @@ title="Print to PDF"
 
             <article class="bd-article" role="main">
               
-  <div class="cell docutils container">
+  <section class="tex2jax_ignore mathjax_ignore" id="primpt-engineering">
+<h1>Primpt Engineering<a class="headerlink" href="#primpt-engineering" title="Permalink to this heading">#</a></h1>
+<p>In this notebook we learn how prompts can be designed to carefully modify the output format.
+The more precisely we formulate the desired output, the closer this output will be to our expectation.
+The act of making the prompt more precise can be coined “prompt engineering”.</p>
+<div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
 
@@ -612,6 +638,7 @@ title="Print to PDF"
 </div>
 </div>
 </div>
+<p>We define a helper function and jupyter magic so that we can easily prompt further down in the notebook.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nd">@register_line_cell_magic</span>
@@ -631,6 +658,7 @@ title="Print to PDF"
 </div>
 </div>
 </div>
+<p>First let’s ask for a simple task.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%</span><span class="k">prompt</span>
@@ -660,6 +688,7 @@ Give these hints:
 <p>Remember, completing your thesis is a significant achievement, and following these hints will ensure a smoother and more successful writing experience. Good luck with your thesis!</p>
 </div>
 </div>
+<p>The output is very long and thus, an obvious modification of the output could be to “keep it short”.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%</span><span class="k">prompt</span>
@@ -684,6 +713,7 @@ Give these hints:
 <p>By following these recommendations, you’ll have a better chance of successfully completing your thesis on time and with improved quality. Good luck!</p>
 </div>
 </div>
+<p>It is also straightforward to ask for output in different languages.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%</span><span class="k">prompt</span>
@@ -707,6 +737,7 @@ Give these hints:
 </ul>
 </div>
 </div>
+<p>“Also output style specification possible is.”, Yoda said.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%</span><span class="k">prompt</span>
@@ -731,6 +762,7 @@ Give these hints:
 <p>Follow these hints, you must. Successful thesis writing, you will achieve. Hmmmm.</p>
 </div>
 </div>
+<p>If technialities are explained by chatGPT, a common prompt is to explain the context as “I’m a 5 year old.”</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%</span><span class="k">prompt</span>
@@ -755,6 +787,11 @@ Give these hints:
 <p>Ich hoffe, diese Tipps helfen dir weiter! Viel Erfolg bei deiner Abschlussarbeit!</p>
 </div>
 </div>
+<section id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this heading">#</a></h2>
+<p>Receive the advice in different languages. Also consider languages such as Klingon.</p>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -784,11 +821,11 @@ Give these hints:
             <footer class="bd-footer-article">
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-  <a class='left-prev' id="prev-link" href="01_prompting.html" title="previous page">
+  <a class='left-prev' id="prev-link" href="02_use_cases.html" title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
           <p class="prev-next-subtitle">previous</p>
-          <p class="prev-next-title">Prompting chatGPT</p>
+          <p class="prev-next-title">Use cases</p>
       </div>
   </a>
   <a class='right-next' id="next-link" href="04_generating_images.html" title="next page">
@@ -813,7 +850,12 @@ Give these hints:
     <i class="fa-solid fa-list"></i> On this page
 </div>
 <nav id="bd-toc-nav" class="page-toc">
-    <ul class="simple visible nav section-nav flex-column">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercise">
+   Exercise
+  </a>
+ </li>
 </ul>
 
 </nav>
