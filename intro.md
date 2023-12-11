@@ -1,6 +1,8 @@
 # Prompt Engineering Tutorial
 
-This [Jupyter Book](https://jupyterbook.org/) contains notebooks demonstrating OpenAI's API for using chatGPT.
+This [Jupyter Book](https://jupyterbook.org/) contains notebooks demonstrating OpenAI's API for using chatGPT. We will use it to answer questions, translate text, write code, analyze data and generate images.
+
+![](00_preparation/teaser.png)
 
 ## Slides
 
