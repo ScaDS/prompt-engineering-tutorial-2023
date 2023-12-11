@@ -61,7 +61,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = '00_preparation/readme';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Prompting chatGPT" href="../01_prompts/01_prompting.html" />
+    <link rel="next" title="Testing the installation" href="test_installation.html" />
     <link rel="prev" title="Prompt Engineering Tutorial" href="../intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="en">
@@ -144,6 +144,13 @@ const thebe_selector_output = ".output, .cell_output"
                 
 
                     <li class="nav-item">
+                      <a class="nav-link nav-internal" href="test_installation.html">
+                        Testing the installation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../01_prompts/01_prompting.html">
                         Prompting chatGPT
                       </a>
@@ -163,19 +170,19 @@ const thebe_selector_output = ".output, .cell_output"
                       </a>
                     </li>
                 
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../01_prompts/04_generating_images.html">
-                        Generating images using DALL-E
-                      </a>
-                    </li>
-                
             <div class="nav-item dropdown">
                 <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
                 </button>
                 <div class="dropdown-menu">
                     
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../01_prompts/04_generating_images.html">
+                        Generating images using DALL-E
+                      </a>
+                    </li>
+                
+
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="../01_prompts/05_videogame_sales.html">
                         Exploring csv files
@@ -291,6 +298,13 @@ const thebe_selector_output = ".output, .cell_output"
                 
 
                     <li class="nav-item">
+                      <a class="nav-link nav-internal" href="test_installation.html">
+                        Testing the installation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
                       <a class="nav-link nav-internal" href="../01_prompts/01_prompting.html">
                         Prompting chatGPT
                       </a>
@@ -310,19 +324,19 @@ const thebe_selector_output = ".output, .cell_output"
                       </a>
                     </li>
                 
-
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../01_prompts/04_generating_images.html">
-                        Generating images using DALL-E
-                      </a>
-                    </li>
-                
             <div class="nav-item dropdown">
                 <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     More
                 </button>
                 <div class="dropdown-menu">
                     
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../01_prompts/04_generating_images.html">
+                        Generating images using DALL-E
+                      </a>
+                    </li>
+                
+
                     <li class="nav-item">
                       <a class="nav-link nav-internal" href="../01_prompts/05_videogame_sales.html">
                         Exploring csv files
@@ -428,10 +442,14 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorial</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Installation</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Setting up your computer</a></li>
 
+<li class="toctree-l1"><a class="reference internal" href="test_installation.html">Testing the installation</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorial</span></p>
+<ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../01_prompts/01_prompting.html">Prompting chatGPT</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../01_prompts/02_use_cases.html">Use cases</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../01_prompts/03_prompt_engineering.html">Primpt Engineering</a></li>
@@ -667,7 +685,7 @@ If a Conda environment breaks, e.g. incompatible software was installed, you can
 <section id="step-2-install-python-packages">
 <h2>Step 2: Install Python packages<a class="headerlink" href="#step-2-install-python-packages" title="Permalink to this heading">#</a></h2>
 <p>Use this command from the terminal:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">prompt</span><span class="o">-</span><span class="n">env</span> <span class="n">python</span><span class="o">=</span><span class="mf">3.9</span> <span class="n">jupyterlab</span> <span class="n">openai</span> <span class="n">scikit</span><span class="o">-</span><span class="n">image</span> <span class="n">pandas</span> <span class="n">matplotlib</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">prompt</span><span class="o">-</span><span class="n">env</span> <span class="n">python</span><span class="o">=</span><span class="mf">3.9</span> <span class="n">jupyterlab</span> <span class="n">openai</span> <span class="n">langchain</span> <span class="n">scikit</span><span class="o">-</span><span class="n">image</span> <span class="n">pandas</span> <span class="n">matplotlib</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">activate</span> <span class="n">prompt</span><span class="o">-</span><span class="n">env</span>
@@ -737,10 +755,10 @@ If everything is installed properly, it should look like this:</p>
           <p class="prev-next-title">Prompt Engineering Tutorial</p>
       </div>
   </a>
-  <a class='right-next' id="next-link" href="../01_prompts/01_prompting.html" title="next page">
+  <a class='right-next' id="next-link" href="test_installation.html" title="next page">
   <div class="prev-next-info">
       <p class="prev-next-subtitle">next</p>
-      <p class="prev-next-title">Prompting chatGPT</p>
+      <p class="prev-next-title">Testing the installation</p>
   </div>
   <i class="fa-solid fa-angle-right"></i>
   </a>
@@ -820,7 +838,7 @@ By Robert Haase
   
   <div class="footer-item">
     <p class="last-updated">
-Last updated on 2023-12-08.<br>
+Last updated on 2023-12-11.<br>
 </p>
   </div>
   
