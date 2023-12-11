@@ -1,4 +1,4 @@
-title: Napari Tutorial 2023
+title: Prompt Engineering Tutorial 2023
 author: Robert Haase
 logo: logo.png
 
@@ -15,7 +15,7 @@ latex:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/ScaDS/napari-tutorial-2023
+  url: https://github.com/ScaDS/prompt-engineering-tutorial-2023
   path_to_book: . # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
@@ -26,8 +26,8 @@ html:
   use_repository_button: true
   extra_footer: |
     <p>
-    Copyright: Licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a> and <a href="https://github.com/haesleinhuepf/BioImageAnalysisNotebooks/blob/main/LICENSE-BSD3" target="_blank">BSD3</a> unless mentioned otherwise. 
-    <a href="https://github.com/haesleinhuepf/BioImageAnalysisNotebooks/blob/main/CONTRIBUTING.md" target="_blank">Contribution and feedback welcome.</a>
+    Copyright: Licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a> unless mentioned otherwise. 
+    Contributions and feedback are welcome.
     </p>
 sphinx:
   config:

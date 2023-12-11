@@ -9,11 +9,12 @@ The tutorial slides can be downloaded from here soon.
 
 ## Other tutorials
 
-
+* [Prompt Engineering Guide](https://www.promptingguide.ai/)
+* [Learn Prompting](https://learnprompting.org/)
 
 ## Questions and answers
 
-If you want to discuss lessons in this Jupyter book, have feedback and/or suggestions, please open a thread on [image.sc](https://image.sc/) and tag @haesleinhuepf.
+If you want to discuss lessons in this Jupyter book, have feedback and/or suggestions, please open an issue [here](https://github.com/ScaDS/prompt-engineering-tutorial-2023/issues/new) and tag @haesleinhuepf.
 
 ## Acknowledgements
 
