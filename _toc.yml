@@ -5,9 +5,13 @@ format: jb-book
 root: intro
 
 parts:
-  - caption: Tutorial
+  - caption: Installation
     chapters:
     - file: 00_preparation/readme
+    - file: 00_preparation/test_installation
+    
+  - caption: Tutorial
+    chapters:
     - file: 01_prompts/01_prompting
     - file: 01_prompts/02_use_cases
     - file: 01_prompts/03_prompt_engineering

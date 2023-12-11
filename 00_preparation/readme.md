@@ -28,7 +28,7 @@ For ease-of-use, it is recommended to install it for your use only and to add Co
 Use this command from the terminal:
 
 ```
-mamba create --name prompt-env python=3.9 jupyterlab openai scikit-image pandas matplotlib -c conda-forge
+mamba create --name prompt-env python=3.9 jupyterlab openai langchain scikit-image pandas matplotlib -c conda-forge
 ```
 
 ```
