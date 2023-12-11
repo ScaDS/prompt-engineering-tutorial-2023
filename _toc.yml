@@ -27,8 +27,8 @@ parts:
 
   - caption: Links
     chapters:
-    #- url: https://doi.org/10.5281/zenodo.10207321
-    #  title: Download Slides
+    - url: https://doi.org/10.5281/zenodo.10354700 
+      title: Download Slides
     - url: https://creativecommons.org/licenses/by/4.0/
       title: License CC-BY 4.0
     - file: imprint
