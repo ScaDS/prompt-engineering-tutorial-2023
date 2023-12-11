@@ -6,7 +6,7 @@ This [Jupyter Book](https://jupyterbook.org/) contains notebooks demonstrating O
 
 ## Slides
 
-The tutorial slides can be downloaded from here soon.
+The tutorial slides can be downloaded [here](https://doi.org/10.5281/zenodo.10354700).
 
 
 ## Other tutorials
